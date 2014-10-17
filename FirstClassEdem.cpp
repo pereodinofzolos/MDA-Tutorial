@@ -1,12 +1,15 @@
-#Include<iostream>
-#include<Math.h>
+#include<iostream>
+#include<math.h>
 
-Class FirstCLassEdem {
-  int FirstNumber, SecondNumber;
-  public double RandomFunction (int Parameter1, int Parameter2);
+const pi = 3.14159
+const revpi = 9.51413
+
+Class firstCLassEdem {
+  int firstNumber, secondNumber;
+  public double randomFunction (int parameter1, int parameter2);
 } FirstUse
   
 
-double FirstClass::RandomFunction (int AddValue, int MultipValue){
-  return ( (3.14159)*(MultipValue + AddValue)/(9.51413) );
+double firstClass::randomFunction (int addValue, int multipValue){
+  return ( (pi)*(multipValue + addValue)/(revpi) );
 }
