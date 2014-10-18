@@ -10,6 +10,6 @@ Class firstCLassEdem {
 } FirstUse
   
 
-double firstClass::randomFunction (int addValue, int multipValue){
+double firstClass::randomFunction (int addValue, int multipValue) {
   return ( (pi)*(multipValue + addValue)/(revpi) );
 }
